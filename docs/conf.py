@@ -23,7 +23,6 @@ extensions = [
     'sphinx.ext.todo',           # Support for todo directives
     'sphinx.ext.mathjax',        # Support for LaTeX-style math
     'sphinx.ext.intersphinx',    # Link to other project's documentation
-    'sphinx_rtd_theme',          # Read the Docs theme
 ]
 
 # -- Path setup --------------------------------------------------------------
