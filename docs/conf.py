@@ -7,9 +7,9 @@ sys.path.insert(0, os.path.abspath('..'))  # This should point to the directory 
 
 # -- Project information -----------------------------------------------------
 
-project = 'Your Project Name'
-copyright = '2025, Your Name'
-author = 'Your Name'
+project = 'Easy Rec'
+copyright = '2025, Filippo'
+author = 'Filippo'
 
 release = '0.1.0'
 version = release
@@ -57,4 +57,3 @@ todo_include_todos = True
 
 # Math
 mathjax_path = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
-

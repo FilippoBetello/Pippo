@@ -1,100 +1,100 @@
-sequential package
+Sequential Recommendation Models
 ==================
 
 Submodules
 ----------
-easy_rec.model.sequential.BERT4Rec
---------------------------
+easy_rec.model.sequential.BERT4Rec module
+-----------------------------------------
 
 .. automodule:: easy_rec.model.sequential.BERT4Rec
    :members:
    :undoc-members:
    :show-inheritance:
 
-model.sequential.CORE module
-----------------------
+easy_rec.model.sequential.CORE module
+-------------------------------------
 
-.. automodule:: model.sequential.BERT4Rec
+.. automodule:: easy_rec.model.sequential.CORE
    :members:
    :undoc-members:
    :show-inheritance:
 
-model.sequential.Caser module
------------------------
+easy_rec.model.sequential.Caser module
+--------------------------------------
 
-.. automodule:: model.sequential.BERT4Rec
+.. automodule:: easy_rec.model.sequential.Caser
    :members:
    :undoc-members:
    :show-inheritance:
 
-model.sequential.CosRec module
-------------------------
+easy_rec.model.sequential.CosRec module
+---------------------------------------
 
-.. automodule:: model.sequential.CosRec
+.. automodule:: easy_rec.model.sequential.CosRec
    :members:
    :undoc-members:
    :show-inheritance:
 
-model.sequential.GRU4Rec module
--------------------------
+easy_rec.model.sequential.GRU4Rec module
+----------------------------------------
 
-.. automodule:: model.sequential.GRU4Rec
+.. automodule:: easy_rec.model.sequential.GRU4Rec
    :members:
    :undoc-members:
    :show-inheritance:
 
-model.sequential.HGN module
----------------------
+easy_rec.model.sequential.HGN module
+------------------------------------
 
-.. automodule:: model.sequential.HGN
+.. automodule:: easy_rec.model.sequential.HGN
    :members:
    :undoc-members:
    :show-inheritance:
 
-model.sequential.NARM module
-----------------------
+easy_rec.model.sequential.NARM module
+-------------------------------------
 
-.. automodule:: model.sequential.NARM
+.. automodule:: easy_rec.model.sequential.NARM
    :members:
    :undoc-members:
    :show-inheritance:
 
-model.sequential.NextItNet module
----------------------------
+easy_rec.model.sequential.NextItNet module
+------------------------------------------
 
-.. automodule:: model.sequential.NextItNet
+.. automodule:: easy_rec.model.sequential.NextItNet
    :members:
    :undoc-members:
    :show-inheritance:
 
-model.sequential.POP module
----------------------
+easy_rec.model.sequential.POP module
+------------------------------------
 
-.. automodule:: model.sequential.POP
+.. automodule:: easy_rec.model.sequential.POP
    :members:
    :undoc-members:
    :show-inheritance:
 
-model.sequential.SASRec module
-------------------------
+easy_rec.model.sequential.SASRec module
+---------------------------------------
 
-.. automodule:: model.sequential.SASRec
+.. automodule:: easy_rec.model.sequential.SASRec
    :members:
    :undoc-members:
    :show-inheritance:
 
-model.sequential.Seq4Rec module
--------------------------
+easy_rec.model.sequential.Seq4Rec module
+----------------------------------------
 
-.. automodule:: model.sequential.Seq4Rec
+.. automodule:: easy_rec.model.sequential.Seq4Rec
    :members:
    :undoc-members:
    :show-inheritance:
 
-model.sequential.caser\_orig module
------------------------------
+easy_rec.model.sequential.caser\_orig module
+-------------------------------------------
 
-.. automodule:: model.sequential.caser_orig
+.. automodule:: easy_rec.model.sequential.caser_orig
    :members:
    :undoc-members:
    :show-inheritance:
@@ -102,7 +102,7 @@ model.sequential.caser\_orig module
 Module contents
 ---------------
 
-.. automodule:: sequential
+.. automodule:: easy_rec.model.sequential
    :members:
    :undoc-members:
    :show-inheritance:

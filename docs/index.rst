@@ -1,4 +1,4 @@
-Welcome to My Project's documentation!
+Welcome to Easy Rec's documentation!
 =======================================
 
 .. toctree::

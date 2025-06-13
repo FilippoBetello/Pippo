@@ -1,4 +1,4 @@
-sequential
+Easy Rec Models
 ==========
 
 .. toctree::
