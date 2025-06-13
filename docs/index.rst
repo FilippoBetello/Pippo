@@ -6,3 +6,5 @@ Welcome to My Project's documentation!
    :caption: Contents:
 
    # list other .rst files here if needed
+   modules
+   sequential
