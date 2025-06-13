@@ -4,98 +4,98 @@ sequential package
 Submodules
 ----------
 
-sequential.BERT4Rec module
+model.sequential.BERT4Rec module
 --------------------------
 
-.. automodule:: sequential.BERT4Rec
+.. automodule:: model.sequential.BERT4Rec
    :members:
    :undoc-members:
    :show-inheritance:
 
-sequential.CORE module
+model.sequential.CORE module
 ----------------------
 
-.. automodule:: sequential.CORE
+.. automodule:: model.sequential.BERT4Rec
    :members:
    :undoc-members:
    :show-inheritance:
 
-sequential.Caser module
+model.sequential.Caser module
 -----------------------
 
-.. automodule:: sequential.Caser
+.. automodule:: model.sequential.BERT4Rec
    :members:
    :undoc-members:
    :show-inheritance:
 
-sequential.CosRec module
+model.sequential.CosRec module
 ------------------------
 
-.. automodule:: sequential.CosRec
+.. automodule:: model.sequential.CosRec
    :members:
    :undoc-members:
    :show-inheritance:
 
-sequential.GRU4Rec module
+model.sequential.GRU4Rec module
 -------------------------
 
-.. automodule:: sequential.GRU4Rec
+.. automodule:: model.sequential.GRU4Rec
    :members:
    :undoc-members:
    :show-inheritance:
 
-sequential.HGN module
+model.sequential.HGN module
 ---------------------
 
-.. automodule:: sequential.HGN
+.. automodule:: model.sequential.HGN
    :members:
    :undoc-members:
    :show-inheritance:
 
-sequential.NARM module
+model.sequential.NARM module
 ----------------------
 
-.. automodule:: sequential.NARM
+.. automodule:: model.sequential.NARM
    :members:
    :undoc-members:
    :show-inheritance:
 
-sequential.NextItNet module
+model.sequential.NextItNet module
 ---------------------------
 
-.. automodule:: sequential.NextItNet
+.. automodule:: model.sequential.NextItNet
    :members:
    :undoc-members:
    :show-inheritance:
 
-sequential.POP module
+model.sequential.POP module
 ---------------------
 
-.. automodule:: sequential.POP
+.. automodule:: model.sequential.POP
    :members:
    :undoc-members:
    :show-inheritance:
 
-sequential.SASRec module
+model.sequential.SASRec module
 ------------------------
 
-.. automodule:: sequential.SASRec
+.. automodule:: model.sequential.SASRec
    :members:
    :undoc-members:
    :show-inheritance:
 
-sequential.Seq4Rec module
+model.sequential.Seq4Rec module
 -------------------------
 
-.. automodule:: sequential.Seq4Rec
+.. automodule:: model.sequential.Seq4Rec
    :members:
    :undoc-members:
    :show-inheritance:
 
-sequential.caser\_orig module
+model.sequential.caser\_orig module
 -----------------------------
 
-.. automodule:: sequential.caser_orig
+.. automodule:: model.sequential.caser_orig
    :members:
    :undoc-members:
    :show-inheritance:
