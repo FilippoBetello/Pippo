@@ -4,7 +4,6 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('.'))
 sys.path.insert(0, os.path.abspath('../'))  # adjust based on your project layout
-from easy_rec.model.sequential.BERT4Rec import BERT4Rec  # Import your model for autodoc
 
 # -- Project information -----------------------------------------------------
 
