@@ -3,7 +3,7 @@ sequential package
 
 Submodules
 ----------
-
+easy_rec.model.sequential.BERT4Rec
 --------------------------
 
 .. automodule:: easy_rec.model.sequential.BERT4Rec
