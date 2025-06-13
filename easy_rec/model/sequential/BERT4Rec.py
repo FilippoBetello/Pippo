@@ -1,3 +1,10 @@
+"""
+BERT4Rec Model
+==============
+
+This module implements the BERT4Rec model for sequential recommendation.
+"""
+
 import torch
 
 class BERT4Rec(torch.nn.Module):
@@ -11,15 +18,18 @@ class BERT4Rec(torch.nn.Module):
                  padding_value=0, 
                  **kwargs):
         '''
-    args:
-        num_items (int): Number of items in the dataset.
-        emb_size (int): Size of the item and position embeddings.
-        lookback (int): Number of previous items to consider in the sequence. (length of the sequence)
-        bert_num_blocks (int): Number of Transformer blocks in the encoder.
-        bert_num_heads (int): Number of attention heads in the Transformer model.
-        dropout_rate (float): Dropout rate for regularization.
-        padding_value (int, optional): Padding value for item embeddings. Defaults to 0.
-    '''
+        Initialize BERT4Rec model for sequential recommendation.
+        
+        Args:
+            num_items (int): Number of items in the dataset.
+            emb_size (int): Size of the item and position embeddings.
+            lookback (int): Number of previous items to consider in the sequence. (length of the sequence)
+            bert_num_blocks (int): Number of Transformer blocks in the encoder.
+            bert_num_heads (int): Number of attention heads in the Transformer model.
+            dropout_rate (float): Dropout rate for regularization.
+            padding_value (int, optional): Padding value for item embeddings. Defaults to 0.
+            **kwargs: Additional keyword arguments.
+        '''
         super().__init__()
 
         self.padding_value = padding_value
@@ -37,14 +47,15 @@ class BERT4Rec(torch.nn.Module):
         #self.out = torch.nn.Linear(emb_size, num_items + 2)
 
     def forward(self, input_seqs, items_to_predict):
-        ''' 
-    Input:
-        input_seqs (torch.Tensor): Tensor containing input item sequences. Shape (batch_size, sequence_length).
-        items_to_predict (torch.Tensor): Tensor containing possible items. Shape (batch_size, input_seq_len, output_seq_len, num_items)
+        '''
+        Forward pass of the BERT4Rec model.
+        
+        Args:
+            input_seqs (torch.Tensor): Tensor containing input item sequences. Shape (batch_size, sequence_length).
+            items_to_predict (torch.Tensor): Tensor containing possible items. Shape (batch_size, output_seq_len, num_items)
 
-    Output:
-        scores (torch.Tensor): Tensor containing interaction scores between input and possible items. Shape (batch_size, input_seq_len, output_seq_len, num_items)
-
+        Returns:
+            scores (torch.Tensor): Tensor containing interaction scores between input and possible items. Shape (batch_size, output_seq_len, num_items)
         '''
         # Create mask to exclude padding values from attention
         mask = torch.isclose(input_seqs, self.padding_value*torch.ones_like(input_seqs)).unsqueeze(1).repeat(
