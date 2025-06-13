@@ -7,4 +7,3 @@ Welcome to My Project's documentation!
 
    # list other .rst files here if needed
    modules
-   sequential
