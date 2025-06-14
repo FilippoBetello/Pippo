@@ -1,6 +1,2 @@
-batch_size: 128 #2048
+batch_size: 256 #[0.05, 0.1, 0.2, 128]
 /num_workers: 1
-# shuffle: True
-/persistent_workers: False
-/pin_memory: False
-# multiprocessing_context: fork #if on MPS you get RuntimeError: _share_filename_: only available on CPU

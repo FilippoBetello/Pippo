@@ -1,0 +1,8 @@
+name: SASRec
+
+num_blocks: 1
+£emb_size: 
+  default: 8 #64
+  values: [32, 64, 128]
+num_heads: 1
+dropout_rate: 0.2
